@@ -2,7 +2,7 @@ import os
 while True:
     print('//////////////////////////////////////////////////////')
     print(' ')
-    inputUsuario = int(input('Qual ação é desejada? 1 - Git Status  2 - Git add/commit/push 3 - Visualizar arquivos no repositorio  4 - Git rm' ))
+    inputUsuario = int(input('Qual ação é desejada? 1 - Git Status  2 - Git add/commit/push 3 - Visualizar arquivos no repositorio  4 - Git rm: '))
     if inputUsuario == 1:
       print(os.system("git status"))
     elif inputUsuario == 2:  
