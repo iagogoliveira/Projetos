@@ -7,5 +7,5 @@ path = 'cd projetos/projetos'
 os.system(path)
 
 os.system('git add '+ nomeArquivo)
-os.system('git commit - m ' + commit)
+os.system('git commit -m ' + commit)
 os.system('git push')
