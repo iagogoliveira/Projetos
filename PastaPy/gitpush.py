@@ -13,6 +13,6 @@ while True:
         os.system('git commit -m '+ commit )
         os.system('git push')
     else:
-        print('Ação inválida!' )    
+        print('Ação inválida!')    
 
         
