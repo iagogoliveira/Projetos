@@ -10,15 +10,16 @@ while True:
           commit = str(input('Insira o comentario do commit: '))
 
           os.system('git add '+ nomeArquivo)
-          os.system('git commit -m '+ commit )
+          os.system('git commit -m '+'"'+ commit +'"' )
           os.system('git push')
     elif inputUsuario == 3:
           os.system('dir')
     elif inputUsuario == 4:
           nomeArquivoRemov = str(input('Insira o nome do arquivo/pasta desejado para remoção: '))
           commit = str(input('Insira o comentario do commit: '))
+          
           os.system('git rm -r ' + nomeArquivoRemov)
-          os.system('git commit -m '+ commit )
+          os.system('git commit -m '+'"'+ commit +'"' )
           os.system('git push')
     else:
         print('Ação inválida!')    
